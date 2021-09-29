@@ -1,21 +1,3 @@
-class Post {
-  constructor(title, type) {
-    this.title = title;
-    this.type = type;
-  }
-}
-
-class userAccount {
-  constructor()
-}
-``
-class JavaBlog extends userAccount {
-
-}
-
-let introductory = new Post("Hello everyone!", "general");
-
-
 /*
 
 
@@ -26,3 +8,13 @@ if(title === '' || author === '' || isbn === '') {
 }
 
 */
+
+class Task {
+  constructor(taskName, day, category) {
+    this.taskName = taskName;
+    this.day = day;
+    this.category = category;
+  }
+}
+
+class ListUI {}
